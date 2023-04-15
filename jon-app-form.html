@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup form</title>
+</head>
+<body>
+    <form method="POST">
+        <div>
+            <label for="name">Name*</label>
+            <input type="text" id="name" required placeholder="Name">
+        </div>
+        
+        <div>
+            <label for="emai;">Email*</label>
+            <input type="text" id="email" required placeholder="Email">
+        </div>
+
+        <div>
+            <label for="gender">Gender*</label>
+            <label for="gender_m">Male</label>
+            <input type="radio" name="" id="gender_m" required>
+            <label for="gender_f">Female</label>
+            <input type="radio" name="" id="gender_f" required>
+        </div>
+
+        <div>
+            <label for="laptops">Laptop Brands* </label>
+            <select name="" id="cars" required>
+                <option value="" disabled selected>--Please choose an option--</option>
+                <option value="">Apple</option>
+                <option value="">Asus</option>
+                <option value="">HP</option>
+            </select>
+        </div>
+
+        <label for="age">Age*</label>
+        <input type="number" name="" id="age" required placeholder="Age">
+
+        <label for="dob">DOB*</label>
+        <input type="date" name="" id="dob" required>
+
+        <label for="password">Password</label>
+        <input type="password" name="" id="password" required placeholder="Password">
+
+        <!-- <label for="tos"> I agree to the TOS</label>
+        <input type="checkbox" name="" id="tos" required> -->
+
+        <label for="portfolio">Portfolio URL</label>
+        <input type="url" id="portfolio" name="portfolio">
+
+
+        <button type="submit">submit</button>
+
+    </form>
+</body>
+</html>
